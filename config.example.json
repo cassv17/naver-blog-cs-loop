@@ -1,0 +1,25 @@
+{
+  "blogId": "내블로그아이디",
+  "blogNickname": "댓글에 표시되는 내 블로그 닉네임",
+  "brandName": "답글·신청 메시지에 쓸 이름",
+  "profileId": "",
+  "scheduleTime": "10:30",
+  "approvalMode": true,
+  "approvalUntil": "2026-01-01",
+  "notify": true,
+  "inquiry": {
+    "enabled": true,
+    "secret": true,
+    "reply": "문의주셔서 감사합니다 :D\n\n담당자와 상담 후 안내드리겠습니다."
+  },
+  "neighbor": {
+    "enabled": true,
+    "mode": "mutual",
+    "keywords": ["키워드1", "키워드2"],
+    "topicHint": "우리 업종과 관련된 글만",
+    "excludeKeywords": [],
+    "maxAgeHours": 24,
+    "dailyBuddyLimit": 10,
+    "dailyCommentLimit": 10
+  }
+}
